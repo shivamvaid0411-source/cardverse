@@ -1,0 +1,2 @@
+# Belong to your fav series!
+ I recently came across this trend where the users create their customized cards based on the themes of specific famous series of their interests. It hit me that many people want to create their own cards with the theme of that particular series. With that idea, I created this card generator. This app or website lets you customize your favorite series cards with your details and lets you download it in a format that is easily printable. Then you can simply get it printed and enjoy your vibe in a whole new way. 
