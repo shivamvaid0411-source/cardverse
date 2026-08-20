@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#203354" rx="20"/>
+  <!-- Doodle Character Avatar -->
+  <circle cx="100" cy="85" r="45" fill="#FFD700" stroke="#000000" stroke-width="4"/>
+  <!-- Anime / Cartoon Eyes -->
+  <ellipse cx="85" cy="80" rx="6" ry="10" fill="#000000"/>
+  <ellipse cx="115" cy="80" rx="6" ry="10" fill="#000000"/>
+  <circle cx="83" cy="76" r="2.5" fill="#FFFFFF"/>
+  <circle cx="113" cy="76" r="2.5" fill="#FFFFFF"/>
+  <!-- Cute Smile -->
+  <path d="M 88 100 Q 100 115 112 100" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round"/>
+  <!-- Rosy Cheeks -->
+  <circle cx="75" cy="93" r="6" fill="#ff7675" opacity="0.7"/>
+  <circle cx="125" cy="93" r="6" fill="#ff7675" opacity="0.7"/>
+  <!-- Body Outline -->
+  <path d="M 45 180 C 45 135, 155 135, 155 180 Z" fill="#007F67" stroke="#000000" stroke-width="4"/>
+  <!-- Star Hero Badge -->
+  <polygon points="100,140 104,150 115,150 106,156 110,166 100,160 90,166 94,156 85,150 96,150" fill="#FFD700" stroke="#000000" stroke-width="1.5"/>
+</svg>
