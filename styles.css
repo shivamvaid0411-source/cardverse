@@ -17,7 +17,11 @@ body {
     z-index: 0;
     transition: all 0.4s ease;
 }
-
+h1, p, span, .text-addon, [id^="activeThemeTitle"], #activeThemeTitle { 
+  -webkit-text-stroke: 2px #01000070; /* Crisp 1px black outline */
+  text-stroke: 1px #130c0cbc;
+  text-shadow: none; /* Removes the previous messy shadow completely */
+}
 /* Franchise Theme Doodle Watermarks */
 .theme-doodle-layer {
     position: fixed;
@@ -38,7 +42,7 @@ body {
 /* 1. Pokémon Theme */
 body.page-theme-pokemon {
     background-color: #0a1c38;
-    color: #ffcb05;
+    color: #ffcc00;
     font-family: 'Press Start 2P', monospace;
 }
 body.page-theme-pokemon #background {
@@ -47,7 +51,7 @@ body.page-theme-pokemon #background {
     background-size: cover;
 }
 body.page-theme-pokemon .brand-title {
-    background: linear-gradient(135deg, #ffcb05, #3c5aa6, #ff4757);
+    background: linear-gradient(135deg, #ffcb05, #ffffff, #ff4757);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -69,38 +73,37 @@ body.page-theme-hero #background {
     background-size: cover;
 }
 body.page-theme-hero .brand-title {
-    background: linear-gradient(135deg, #FFD700, #E3001B, #007F67);
+    background: linear-gradient(134deg, #fff427a7, #fdfdfd, #829a9a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 body.page-theme-hero .download-btn {
-    background: linear-gradient(135deg, #E3001B, #203354);
+    background: linear-gradient(135deg, #856468, #203354);
     color: #FFD700;
-    box-shadow: 0 4px 25px rgba(227, 0, 27, 0.6);
+    box-shadow: 0 4px 25px rgb(248, 248, 248);
 }
 
 /* 3. Fight Club Theme */
 body.page-theme-fight_club {
     background-color: #0d0d0d;
-    color: #f3f4f6;
+    color: #fcfcfc;
     font-family: 'Courier Prime', monospace;
 }
 body.page-theme-fight_club #background {
-    background-color: #0d0d0d;
+    background-color: rgb(0, 0, 0);
     background-image: url('assets/fightclub_bg.png');
     background-size: cover;
 }
 body.page-theme-fight_club .brand-title {
-    background: linear-gradient(135deg, #ff69b4, #b91c1c, #84cc16);
+    background: linear-gradient(135deg, #ffffff, #d9cfcf5a, #f9f9f9);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-body.page-theme-fight_club .download-btn {
-    background: #ff69b4;
-    color: #111111;
-    box-shadow: 0 4px 25px rgba(255, 105, 180, 0.6);
+body.page-theme-fight_club #background {
+  background-color: rgb(0, 0, 0);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/fightclub_bg.png');
+  background-size: cover;
 }
-
 /* 4. Men In Black Theme */
 body.page-theme-mib {
     background-color: #000000;
@@ -113,7 +116,7 @@ body.page-theme-mib #background {
     background-size: cover;
 }
 body.page-theme-mib .brand-title {
-    background: linear-gradient(135deg, #ffffff, #00f2fe, #9ca3af);
+    background: linear-gradient(135deg, #ffffff, #eeeeee, #9ca3af);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -177,8 +180,8 @@ body.page-theme-mib .download-btn {
 }
 
 .theme-selection-card {
-    background: rgba(255, 255, 255, 0.07);
-    border: 2px solid rgba(255, 255, 255, 0.15);
+    background: rgba(0, 0, 0, 0.811);
+    border: 2px solid rgba(255, 255, 255, 0.393);
     border-radius: 12px;
     overflow: hidden;
     cursor: pointer;
@@ -190,14 +193,14 @@ body.page-theme-mib .download-btn {
 
 .theme-selection-card:hover {
     transform: translateY(-4px);
-    border-color: #38bdf8;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    border-color: #fdfdfd;
+    box-shadow: 0 1px 15px rgb(248, 245, 245);
 }
 
 .theme-selection-card.active {
-    border-color: #ffcb05;
-    background: rgba(255, 203, 5, 0.15);
-    box-shadow: 0 0 0 3px rgba(255, 203, 5, 0.4), 0 10px 20px rgba(0,0,0,0.6);
+    border-color: #000000;
+    background: rgba(55, 55, 55, 0.859);
+    box-shadow: 0 0 0 3px rgba(255, 253, 253, 0.37), 0 10px 20px rgb(17, 11, 11);
 }
 
 .theme-preview-img-box {
