@@ -43,8 +43,8 @@ body.page-theme-pokemon {
 }
 body.page-theme-pokemon #background {
     background-color: #0a1c38;
-    background-image: radial-gradient(#3c5aa6 2px, transparent 2px);
-    background-size: 24px 24px;
+    background-image: url('assets/pokemon_bg.png');
+    background-size: cover;
 }
 body.page-theme-pokemon .brand-title {
     background: linear-gradient(135deg, #ffcb05, #3c5aa6, #ff4757);
@@ -65,8 +65,8 @@ body.page-theme-hero {
 }
 body.page-theme-hero #background {
     background-color: #0d1726;
-    background-image: radial-gradient(#203354 2.5px, transparent 2.5px);
-    background-size: 20px 20px;
+    background-image: url('assets/mha_bg.png');
+    background-size: cover;
 }
 body.page-theme-hero .brand-title {
     background: linear-gradient(135deg, #FFD700, #E3001B, #007F67);
@@ -87,8 +87,8 @@ body.page-theme-fight_club {
 }
 body.page-theme-fight_club #background {
     background-color: #0d0d0d;
-    background-image: radial-gradient(#262626 1.5px, transparent 1.5px);
-    background-size: 16px 16px;
+    background-image: url('assets/fightclub_bg.png');
+    background-size: cover;
 }
 body.page-theme-fight_club .brand-title {
     background: linear-gradient(135deg, #ff69b4, #b91c1c, #84cc16);
@@ -109,8 +109,8 @@ body.page-theme-mib {
 }
 body.page-theme-mib #background {
     background-color: #000000;
-    background-image: radial-gradient(#1f2937 1px, transparent 1px);
-    background-size: 22px 22px;
+    background-image: url('assets/mib_bg.png');
+    background-size: cover;
 }
 body.page-theme-mib .brand-title {
     background: linear-gradient(135deg, #ffffff, #00f2fe, #9ca3af);
